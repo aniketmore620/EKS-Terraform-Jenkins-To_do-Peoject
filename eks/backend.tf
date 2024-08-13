@@ -10,7 +10,7 @@ terraform {
     bucket         = "my-ews-aniket"
     region         = "us-east-1"
     key            = "eks/terraform.tfstate"
-    dynamodb_table = "Aniket"
+    dynamodb_table = "Lock-Files"
     encrypt        = true
   }
 }
